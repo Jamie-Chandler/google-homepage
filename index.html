@@ -1,46 +1,40 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Google</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-left li_hover">About</li>
+            <li class="nav-left li_hover">Store</li>
+            <li class="nav-right" id="circle_image">JC</li>
+            <li class="nav-right li_hover">Images</li>
+            <li class="nav-right li_hover">Gmail</li>
+        </ul>
+    </nav>
 
-        <nav>
-            <a class="nav-left" href="#">About</a>
-            <a class="nav-left" href="#">Store</a>
-            <a class="nav-right" href="#">Gmail</a>
-            <a class="nav-right" href="#">Images</a>
-            <img class="nav-right" src="#">
-        </nav>
-
-    <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <input type="text" placeholder="Search...">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-    </div>    
+    <main>
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="The Google Logo">
+        <input type="text" class="search_bar" placeholder="Search">
+        <div class="button_box">
+            <button class="google_button button1">Google Search</button>
+            <button class="google_button button2">I'm Feeling Lucky</button>
+        </div>
+    </main>
 
     <footer>
-        <div id="country">
-            <h4>United Kingdom</h>
-        </div>
-        <div>   
-            <a class="footer-left" href="#">Advertising</a>
-            <a class="footer-left" href="#">Business</a>
-            <a class="footer-left" href="#">Advertising</a>
-            <a class="footer-right" href="#">Privacy</a>
-            <a class="footer-right" href="#">Terms</a>
-            <a class="footer-right" href="#">Settings</a>
-        </div>
+        <ul class="footer_ul">
+            <li class="nav-left li_hover">Advertising</li>
+            <li class="nav-left li_hover">Business</li>
+            <li class="nav-left li_hover">How Search works</li>
+            <li class="nav-right li_hover">Settings</li>
+            <li class="nav-right li_hover">Terms</li>
+            <li class="nav-right li_hover">Privacy</li>
+        </ul>
     </footer>
 
-        
-       <!-- This is for Javascript Source. 
-        <script src="" async defer></script> -->
-    </body>
+</body>
 </html>
